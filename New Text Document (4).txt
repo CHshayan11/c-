@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int login,num;
+  string choice;
+  menu:
+  cout<<"\n1- Online Booking";
+  cout<<"\n2- On-Site Booking";
+  cout<<"\nEnter the number :";
+  cin>>num;
+  cout<<"\nYou Press :"<<num;
+  if(num==1){
+      cout<<"\nAre you sure for online booking :";
+      cout<<"\nYes or No :";
+      cin>>choice;
+      if(choice=="Yes" || choice=="yes"){
+          cout<<"get lost";}
+      else if(choice=="No" || choice=="no"){
+          cout<<"helo";
+          goto menu;
+      }
+      else{
+      cout<<"wrong input";
+      }}
+  else{
+  cout<<"Please try again";
+  }
+    return 0;
+}
