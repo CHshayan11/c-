@@ -6,7 +6,7 @@ int main() {
   menu:
   cout<<"\n1- Online Booking";
   cout<<"\n2- On-Site Booking";
-  cout<<"\nEnter the number :";
+  cout<<"\nEnter the chshayan:";
   cin>>num;
   cout<<"\nYou Press :"<<num;
   if(num==1){
